@@ -1,0 +1,3 @@
+/home/ngoctruong/my_code_ws/Python/library_basic/opencv/aruco_maker/build/CMakeFiles/rebuild_cache.dir
+/home/ngoctruong/my_code_ws/Python/library_basic/opencv/aruco_maker/build/CMakeFiles/detect_marker.dir
+/home/ngoctruong/my_code_ws/Python/library_basic/opencv/aruco_maker/build/CMakeFiles/edit_cache.dir
