@@ -7,6 +7,7 @@ import os.path
 import pickle
 import time
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
 i=0
 def save_face(frame):
     global i
@@ -49,7 +50,7 @@ def predict( X_img, knn_clf=None, distance_threshold=0.4):
 
 camera = cv2.VideoCapture(0)
 # Load a trained KNN model (if one was passed in)
-with open("trained_knn_model.clf", 'rb') as f:
+with open(dir_path + "/trained_knn_model.clf", 'rb') as f:
     knn_clf = pickle.load(f)
 
 image_predict = 0
