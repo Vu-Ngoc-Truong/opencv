@@ -22,7 +22,7 @@ image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Find all the faces in the image using a pre-trained convolutional neural network.
 #  use hog model
-face_locations = face_recognition.face_locations(image, number_of_times_to_upsample=4)
+face_locations = face_recognition.face_locations(image, number_of_times_to_upsample=1)
 #  use cnn model
 # face_locations = face_recognition.face_locations(image, number_of_times_to_upsample=4, model="cnn")
 print(face_locations)
